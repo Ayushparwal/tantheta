@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tantheta"
-version = "1.0.0"
+version = "1.0.1"
 description = "Mathematics-powered Python library for symbolic computation, calculus, and mathematical problem solving"
 readme = "README.md"
 authors = [{ name = "Tantheta Team", email = "ayushparwal777@gmail.com" }]
@@ -13,7 +13,7 @@ requires-python = ">=3.9"
 dependencies = ["sympy>=1.12"]
 keywords = ["Maths", "solution", "development", "assistant", "cli"]
 classifiers = [
-    "Development Status :: 4 - Beta",
+    
     "Intended Audience :: Developers",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
@@ -22,7 +22,7 @@ classifiers = [
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Topic :: Software Development :: Libraries :: Python Modules",
-    "Topic :: Software Development :: Code Generators",
+    
 ]
 
 [project.urls]
