@@ -1,5 +1,16 @@
 from sympy import symbols, Matrix, Eq, sympify, solve, expand, factor, Poly
 from sympy.abc import x, y
+from sympy import sympify, gcd, lcm, expand
+
+def symbolic_gcd(expr1, expr2):
+    expr1 = expand(sympify(expr1))
+    expr2 = expand(sympify(expr2))
+    return gcd(expr1, expr2)
+
+def symbolic_lcm(expr1, expr2):
+    expr1 = expand(sympify(expr1))
+    expr2 = expand(sympify(expr2))
+    return lcm(expr1, expr2)
 
 def dot_product(v1: list, v2: list):
     return sum(a * b for a, b in zip(v1, v2))

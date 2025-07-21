@@ -51,3 +51,7 @@ from .trigonometry import (
     verify_trig_identity,
     is_trig_identity,
 )
+from tantheta.linear_algebra import compute_determinant, compute_inverse, compute_rank, compute_eigenvalues
+from tantheta.geometry import angle_between_lines, angle_between_vectors
+from tantheta.plot import plot_expression
+from tantheta.algebra import symbolic_gcd, symbolic_lcm

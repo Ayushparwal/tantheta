@@ -1,8 +1,9 @@
 import tantheta
 from tantheta.calculus import find_limit, differentiate, integration, definite_integral, partial_derivative, second_derivative,taylor_series,find_critical_points
-from tantheta.algebra import dot_product, cross_product, classify_conic,factor_expression,expand_expression, solve_linear_equation, solve_linear_system,is_polynomial, degree_of_polynomial
+from tantheta.algebra import dot_product, cross_product, classify_conic,factor_expression,expand_expression, solve_linear_equation, solve_linear_system,is_polynomial, degree_of_polynomial,symbolic_gcd, symbolic_lcm
 from tantheta.probability import nPr, nCr, basic_probability
 from tantheta.stats import mean, median, variance, standard_deviation
+import numpy as np
 from tantheta.trigonometry import (
     solve_trig_equation,
     simplify_trig_expression,
@@ -12,6 +13,9 @@ from tantheta.trigonometry import (
     verify_trig_identity,
     is_trig_identity
 )
+from tantheta.linear_algebra import compute_determinant, compute_inverse, compute_rank, compute_eigenvalues
+from tantheta.geometry import angle_between_vectors, angle_between_lines
+from tantheta.plot import plot_expression
 
 print(tantheta.add(4, 5))      
 print(tantheta.subtract(9, 3)) 
@@ -107,3 +111,29 @@ print(verify_trig_identity("1 - 2*sin(x)**2", "cos(2*x)"))
 # 7. Checking whether a complex expression is an identity
 print(is_trig_identity("sin(x)**4 + 2*sin(x)**2*cos(x)**2 + cos(x)**4 - 1"))
 # Output: True
+
+
+
+matrix = [[2, 1], [1, 3]]
+
+print("Determinant:", compute_determinant(matrix))
+print("Inverse:", compute_inverse(matrix))
+print("Rank:", compute_rank(matrix))
+print("Eigenvalues:", compute_eigenvalues(matrix))
+
+v1 = [1, 0]
+v2 = [0, 1]
+
+angle = angle_between_vectors(v1, v2)
+print(f"Angle between {v1} and {v2}: {angle} degrees")
+m1 = 1      # Line 1: y = x
+m2 = -1     # Line 2: y = -x
+
+angle = angle_between_lines(m1, m2)
+print(f"Angle between lines: {angle} degrees")
+
+plot_expression("x**2 + 3*x + 2")
+plot_expression("sin(x)", range=(-2*np.pi, 2*np.pi))
+
+print(symbolic_gcd("x**2 - 1", "x**2 - x"))    # x - 1
+print(symbolic_lcm("x**2 - 1", "x**2 - x"))    # x*(x - 1)*(x + 1)
