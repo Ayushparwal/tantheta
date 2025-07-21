@@ -25,6 +25,7 @@ Built on top of [SymPy](https://www.sympy.org/), `tantheta` helps students, educ
 
 ```bash
 pip install tantheta
+```
 
 
 ## Examples 
@@ -35,3 +36,5 @@ from tantheta.calculus import second_derivative, partial_derivative, definite_in
 print(second_derivative("x**3 + 2*x"))
 print(partial_derivative("x**2 + y**2", "y"))
 print(definite_integral("x**2", 0, 2))
+```
+
