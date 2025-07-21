@@ -4,6 +4,11 @@
 
 Built on top of [SymPy](https://www.sympy.org/), `tantheta` helps students, educators, and developers easily compute and format math expressions.
 
+[![Downloads](https://static.pepy.tech/badge/tantheta)](https://pepy.tech/project/tantheta)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayush-parwal-797a79255/)  
+[![X](https://img.shields.io/badge/X-%23000000.svg?style=flat&logo=X&logoColor=white)](https://x.com/ayushparwal2004)
+[![Kaggle](https://img.shields.io/badge/Kaggle-%2312100E.svg?style=flat&logo=kaggle&logoColor=white)](https://kaggle.com/ayushparwal)
+
 ---
 
 ## ✨ Features
