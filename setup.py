@@ -11,7 +11,7 @@ except Exception:
 
 setup(
     name="tantheta",  
-    version="1.0.4",  
+    version="1.0.5",  
     author="Ayush Parwal",
     author_email="ayushparwal777@gmail.com",  
     description="An intuitive symbolic math library for algebra, calculus, trigonometry, and beyond.",

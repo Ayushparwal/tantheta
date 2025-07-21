@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tantheta"
-version = "1.0.4"
+version = "1.0.5"
 description = "Mathematics-powered Python library for symbolic computation, calculus, and mathematical problem solving"
 readme = "README.md"
 authors = [{ name = "Ayush Parwal", email = "ayushparwal777@gmail.com" }]
@@ -14,7 +14,7 @@ dependencies = ["sympy>=1.12"]
 keywords = [
     "symbolic math", "algebra", "calculus", "trigonometry", "math toolkit",
     "math solver", "sympy", "mathematics", "cli tool", "math automation",
-    "educational", "math library", "python math", "differentiation", "integration"
+     "math library", "python math", "differentiation", "integration"
 ]
 classifiers = [
     
