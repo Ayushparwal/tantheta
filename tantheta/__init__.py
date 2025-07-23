@@ -55,3 +55,23 @@ from tantheta.linear_algebra import compute_determinant, compute_inverse, comput
 from tantheta.geometry import angle_between_lines, angle_between_vectors
 from tantheta.plot import plot_expression
 from tantheta.algebra import symbolic_gcd, symbolic_lcm
+
+#Chemistry
+from tantheta.chemistry import balance_equation, ideal_gas_law
+
+# Physics module
+from tantheta.physics import (
+    solve_kinematics,
+    projectile_motion,
+    convert_units,
+    lens_formula,
+)
+
+# Maths module
+from tantheta.maths import (
+    ap_nth_term,
+    gp_sum,
+    triangle_area,
+    is_prime,
+    prime_factors,
+)
