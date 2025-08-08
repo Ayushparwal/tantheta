@@ -1,6 +1,6 @@
 # 🧮 tantheta
 
-**tantheta** is a lightweight, beginner-friendly Python library for solving a wide range of mathematical problems like algebra, calculus, trigonometry, and statistics — using symbolic math.
+**tantheta** is a versatile Python library for symbolic computation and problem solving across mathematics, physics, and chemistry — supporting algebra, calculus, mechanics, thermodynamics, stoichiometry, kinetics, and more. Designed for students, educators, and researchers.
 
 Built on top of [SymPy](https://www.sympy.org/), `tantheta` helps students, educators, and developers easily compute and format math expressions.
 
@@ -16,11 +16,13 @@ Built on top of [SymPy](https://www.sympy.org/), `tantheta` helps students, educ
 
 ## ✨ Features
 
-- 🔢 Algebraic simplification and equation solving
-- ∫ Symbolic calculus (differentiation and integration)
-- 📐 Trigonometric equation solving
-- 📊 Basic statistics (mean, median, variance, etc.)
-- 🧠 Expression formatting with LaTeX
+- 🔢 Algebraic simplification and equation solving.
+- ∫ Symbolic calculus. (differentiation and integration)
+- 📐 Trigonometric equation solving.
+- 📊 Basic statistics. (mean, median, variance, etc.)
+- ⚛️ Chemistry tools: chemical equation balancing, ideal gas law, stoichiometry, equilibrium, thermochemistry.
+- ⚙️ Physics modules: kinematics, projectile motion, optics, unit conversions.
+- 🧠 Expression formatting with LaTeX.
 
 ---
 
@@ -40,4 +42,26 @@ print(second_derivative("x**3 + 2*x"))
 print(partial_derivative("x**2 + y**2", "y"))
 print(definite_integral("x**2", 0, 2))
 ```
+```bash
+from tantheta.maths import ap_nth_term, gp_sum, triangle_area, is_prime, prime_factors
+print(ap_nth_term(2, 3, 5))                            
+print(gp_sum(3, 2, 4))                                
+print(triangle_area(3, 4, 5))                          
+print(is_prime(17))                                   
+print(prime_factors(28))  
+```
 
+```bash                            
+from tantheta.physics import solve_kinematics, projectile_motion, ohms_law
+print(solve_kinematics(u=0, a=9.8, t=5))              
+print(projectile_motion(20, 30))                         
+print(ohms_law(i=2, r=5))      
+```
+
+```bash
+from tantheta.chemistry import balance_equation, ideal_gas_law, molarity, pH
+print(balance_equation("H2 + O2 = H2O"))                
+print(ideal_gas_law(V=5, n=2, T=300))                   
+print(molarity(2, 1))                                   
+print(pH(1e-7))
+```

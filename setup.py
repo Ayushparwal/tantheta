@@ -11,10 +11,10 @@ except Exception:
 
 setup(
     name="tantheta",  
-    version="1.0.7",  
+    version="1.1.0",  
     author="Ayush Parwal",
     author_email="ayushparwal777@gmail.com",  
-    description="An intuitive symbolic math library for algebra, calculus, trigonometry, and beyond.",
+    description="A versatile Python library for symbolic computation and problem solving in mathematics, physics, and chemistry — covering algebra, calculus, mechanics, thermodynamics, stoichiometry, and kinetics.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Ayushparwal/tantheta",  

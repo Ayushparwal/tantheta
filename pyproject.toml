@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tantheta"
-version = "1.0.7"
-description = "Mathematics-powered Python library for symbolic computation, calculus, and mathematical problem solving"
+version = "1.1.0"
+description = "A versatile Python library for symbolic computation and problem solving in mathematics, physics, and chemistry — covering algebra, calculus, mechanics, thermodynamics, stoichiometry, and kinetics."
 readme = "README.md"
 authors = [{ name = "Ayush Parwal", email = "ayushparwal777@gmail.com" }]
 license = "MIT"
